@@ -8,7 +8,7 @@ input:
 
 tasks:
   task1:
-    action: examples.orchestra-test-cancel
+    action: examples.orquesta-test-cancel
     input:
       tempfile: <% ctx().file1 %>
       message: "Bravo!"
@@ -16,7 +16,7 @@ tasks:
       - when: <% succeeded() %>
         do: task3
   task2:
-    action: examples.orchestra-test-cancel
+    action: examples.orquesta-test-cancel
     input:
       tempfile: <% ctx().file2 %>
       message: "Excellent!"

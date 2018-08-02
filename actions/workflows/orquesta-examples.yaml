@@ -1,6 +1,6 @@
 version: 1.0
 
-description: Run a set of orchestra examples
+description: Run a set of orquesta examples
 
 input:
   - cmd
@@ -8,14 +8,14 @@ input:
 
 tasks:
   basic:
-    action: examples.orchestra-basic
+    action: examples.orquesta-basic
     input:
       cmd: hostname
     next:
       - when: <% succeeded() %>
         do: sequential
   sequential:
-    action: examples.orchestra-sequential
+    action: examples.orquesta-sequential
     input:
       name: Blueberry
     next:
@@ -23,6 +23,6 @@ tasks:
         do:
           - dataFlow
   dataFlow:
-    action: examples.orchestra-data-flow
+    action: examples.orquesta-data-flow
     input:
       a1: LSU Tigers

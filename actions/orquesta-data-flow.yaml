@@ -1,8 +1,8 @@
 ---
-name: orchestra-data-flow
+name: orquesta-data-flow
 description: A basic workflow to demonstrate data flow options.
-runner_type: orchestra
-entry_point: workflows/orchestra-data-flow.yaml
+runner_type: orquesta
+entry_point: workflows/orquesta-data-flow.yaml
 enabled: true
 parameters:
   a1:

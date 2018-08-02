@@ -1,8 +1,8 @@
 ---
-name: orchestra-fail-output-rendering
+name: orquesta-fail-output-rendering
 description: A basic workflow with error while evaluating output.
-runner_type: orchestra
-entry_point: workflows/tests/orchestra-fail-output-rendering.yaml
+runner_type: orquesta
+entry_point: workflows/tests/orquesta-fail-output-rendering.yaml
 enabled: true
 parameters:
   name:

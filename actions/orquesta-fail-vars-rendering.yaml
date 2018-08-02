@@ -1,8 +1,8 @@
 ---
-name: orchestra-fail-vars-rendering
+name: orquesta-fail-vars-rendering
 description: A basic workflow with error while evaluating vars.
-runner_type: orchestra
-entry_point: workflows/tests/orchestra-fail-vars-rendering.yaml
+runner_type: orquesta
+entry_point: workflows/tests/orquesta-fail-vars-rendering.yaml
 enabled: true
 parameters:
   name:

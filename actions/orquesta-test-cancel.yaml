@@ -1,9 +1,9 @@
 ---
-name: orchestra-test-cancel
+name: orquesta-test-cancel
 description: A sample workflow used to test the cancel feature.
 pack: examples
-runner_type: orchestra
-entry_point: workflows/tests/orchestra-test-cancel.yaml
+runner_type: orquesta
+entry_point: workflows/tests/orquesta-test-cancel.yaml
 enabled: true
 parameters:
     tempfile:

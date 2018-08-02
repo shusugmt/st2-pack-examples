@@ -1,8 +1,8 @@
 ---
-name: orchestra-fail-task-publish
+name: orquesta-fail-task-publish
 description: A basic workflow that fails on publish during task transition.
-runner_type: orchestra
-entry_point: workflows/tests/orchestra-fail-task-publish.yaml
+runner_type: orquesta
+entry_point: workflows/tests/orquesta-fail-task-publish.yaml
 enabled: true
 parameters:
   name:

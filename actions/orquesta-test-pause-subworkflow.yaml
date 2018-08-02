@@ -1,9 +1,9 @@
 ---
-name: orchestra-test-pause-subworkflow
+name: orquesta-test-pause-subworkflow
 description: A sample workflow used to test the cascading pause of subworkflow.
 pack: examples
-runner_type: orchestra
-entry_point: workflows/tests/orchestra-test-pause-subworkflow.yaml
+runner_type: orquesta
+entry_point: workflows/tests/orquesta-test-pause-subworkflow.yaml
 enabled: true
 parameters:
     tempfile:

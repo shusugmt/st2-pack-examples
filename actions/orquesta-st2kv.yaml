@@ -1,8 +1,8 @@
 ---
-name: orchestra-st2kv
+name: orquesta-st2kv
 description: A sample workflow that demonstrates st2kv usage
-runner_type: orchestra
-entry_point: workflows/orchestra-st2kv.yaml
+runner_type: orquesta
+entry_point: workflows/orquesta-st2kv.yaml
 enabled: true
 parameters:
   key_name:
